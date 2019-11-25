@@ -85,7 +85,7 @@ public class Drop extends ApplicationAdapter {
 
         // tell the SpriteBatch to render in the
         // coordinate system specified by the camera.
-        //batch.setProjectionMatrix(camera.combined);
+        batch.setProjectionMatrix(camera.combined);
 
         // begin a new batch and draw the bucket and
         // all drops
